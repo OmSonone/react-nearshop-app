@@ -63,7 +63,7 @@ return (
 	 		   
 	 		   </div>
 	 		   {
-	 		   	hidden ?
+	 		   	!hidden ?
 	 		   	<CartDropdown className=" br 2"/>:null
 	 		  
 	 		   	 

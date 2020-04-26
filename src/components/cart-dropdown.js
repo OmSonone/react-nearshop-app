@@ -1,7 +1,7 @@
 import React from 'react';
 import CustomButton from './custom-button.component.jsx';
 import './cart-dropdown.styles.jsx';
-import {push} from 'redux'
+// import {push} from 'redux'
 
 import {
   CartDropdownContainer,
@@ -9,7 +9,7 @@ import {
   CartItemsContainer
 } from './cart-dropdown.styles';
 
-const CartDropdown = ({ cartItems, closeCart, push }) => (
+const CartDropdown = ({ cartItems, closeCart }) => (
   <CartDropdownContainer  className=" br2">
     <CartItemsContainer>
        
