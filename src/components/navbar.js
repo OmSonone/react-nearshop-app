@@ -18,7 +18,7 @@ return (
 
           
 		 
-		  <Link to ='/'  className="f2  blue	 grow mr4-ns pointer no-underline" >NEARSHOP</Link>
+		  <Link to ='/'  className="f2  blue	 grow mr4-ns pointer no-underline" >NEARSHOP.</Link>
 	 
 		  
 		    
