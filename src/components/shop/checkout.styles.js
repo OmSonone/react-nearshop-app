@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const CheckoutPageContainer = styled.div`
-  width: 650px;
-  min-height: 90vh;
+  width: 100%;
+  min-height: 67vh;
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,7 @@ export const CheckoutHeaderContainer = styled.div`
 export const HeaderBlockContainer = styled.div`
   text-transform: capitalize;
   width: 23%;
+  font-weight:bold;
 
   &:last-child {
     width: 8%;
@@ -35,7 +36,9 @@ export const HeaderBlockContainer = styled.div`
 export const TotalContainer = styled.div`
   margin-top: 30px;
   margin-left: auto;
+  margin-right: 9%;
   font-size: 36px;
+
 `;
 
 export const WarningContainer = styled.div`
@@ -44,3 +47,5 @@ export const WarningContainer = styled.div`
   font-size: 24px;
   color: red;
 `;
+
+ 

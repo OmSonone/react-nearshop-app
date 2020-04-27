@@ -11,17 +11,23 @@ import {
 } from './checkout.styles';
 
  const Shopview = ( ) => { 
- 	return(<div>
- 		<div className="  flex justify-between   bg-light-green" >
- 		<h1 className="f2 ph2">SHOPNAME</h1>
- 		<input type='search' placeholder = '        search items'
-		 className ='  ma3 mh4 ba b--green br3 bg-lightest-blue'
-		  />
+ 	return(
+    <div>
+      
+         <div className="  flex justify-between  bg-light-green  br2 pa3 ma2   bw2 shadow-5  " >
+             <h1 className="f2 ph2">SHOPNAME</h1>
+            <input type='search' placeholder = '        search items'
+             className ='  ma3 mh4 ba b--green br3 bg-lightest-blue'
+              />
 
- 		</div>
+           </div>
+           <div className=' bg-light-green  br2 pa3 ma2   bw2 shadow-5  tc'>
 
- 		 <CheckoutPageContainer>
-    <CheckoutHeaderContainer>
+     <CheckoutPageContainer>
+      <CheckoutHeaderContainer>
+      <HeaderBlockContainer>
+        <span>Sl.No</span>
+      </HeaderBlockContainer>
 
       <HeaderBlockContainer>
         <span>Product</span>
@@ -38,16 +44,9 @@ import {
       <HeaderBlockContainer>
         <span>Remove</span>
       </HeaderBlockContainer>
-    </CheckoutHeaderContainer>
-     <CheckoutHeaderContainer>
-     </CheckoutHeaderContainer>
-      <CheckoutHeaderContainer>
-     </CheckoutHeaderContainer>
-      <CheckoutHeaderContainer>
-     </CheckoutHeaderContainer>
-      <CheckoutHeaderContainer>
-     </CheckoutHeaderContainer>
-    <br/> <br/>    
+      </CheckoutHeaderContainer>
+         
+ 
     <TotalContainer >
 
       <span>TOTAL: </span>
@@ -56,9 +55,11 @@ import {
       
     </WarningContainer>
     
-  </CheckoutPageContainer>
- 		
- 	</div>);
+     </CheckoutPageContainer>
+    
+  </div>
+    </div>
+    );
  
 };
 
