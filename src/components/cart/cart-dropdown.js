@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomButton from './custom-button.component.jsx';
+import CustomButton from '../form/custom-button.component.jsx';
 import './cart-dropdown.styles.jsx';
 // import {push} from 'redux'
 

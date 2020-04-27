@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import {auth} from '../firebase/firebase.js';
+import {auth} from '../../firebase/firebase.js';
 import {connect} from 'react-redux';
-import CartIcon from './cart-icon.jsx';
-import CartDropdown from './cart-dropdown'
+import CartIcon from '../cart/cart-icon.jsx';
+import CartDropdown from '../cart/cart-dropdown'
 import './navbar-styles.css'
 
 
@@ -17,7 +17,7 @@ return (
 		  <div className="flex-grow pa2 flex items-center  ">
 
           <img alt="logo " className="pointer br-100  ba mr2 h3 w3 dib grow" src="download.png"/>		 
-		  <Link to ='/'  className="nearshop f2  blue b grow mr4-ns pointer no-underline" >NEARSHOP.</Link>
+		  <Link to ='/'  className="nearshop f2  blue b grow mr4-ns pointer no-underline" >NEARSHOP</Link>
 	 
 		  
 		    

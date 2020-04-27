@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
-import CardList from './cardlist'
-import Search from './search'
+import CardList from '../card/cardlist'
+import Search from '../search/search'
 import Scroll from './scroll'
 
 

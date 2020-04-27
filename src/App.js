@@ -1,10 +1,10 @@
 import React,{Component} from 'react';
-import Navbar from './components/navbar.js';
+import Navbar from './components/homepage/navbar.js';
 import {Route,Redirect,Switch} from 'react-router-dom';
-import Shopview from './components/shopview'
-import Signin from './components/signin.js';
-import Signup from './components/signup.js'
-import Home from './components/homepage.js'
+import Shopview from './components/shop/shopview'
+import Signin from './components/signinup/signin.js';
+import Signup from './components/signinup/signup.js'
+import Home from './components/homepage/homepage.js'
 import {connect} from 'react-redux'
 import {auth,createUserProfileDocument} from './firebase/firebase.js'
 import {setCurrentUser } from './redux/user-actions';
