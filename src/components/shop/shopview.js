@@ -1,68 +1,67 @@
-import React from 'react';
+import React,{Component} from 'react';
+import Search from '../search/search.js'
+import Itemlist from './itemlist'
+
 // import { connect } from 'react-redux';
  
 
-import {
-  CheckoutPageContainer,
-  CheckoutHeaderContainer,
-  HeaderBlockContainer,
-  TotalContainer,
-  WarningContainer
-} from './checkout.styles';
+class Shopview extends Component{
 
- const Shopview = ( ) => { 
- 	return(
-    <div>
+  constructor()
+  {
+      super();            //fr accesing parents and other class memmbers
+      this.state=
+       {
+        robots:[],        //state is used to store all modifying members(dynamic props)
+            searchfield:''
+       }
+
+   }
+      componentDidMount(){
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(response=> response.json())
+        .then(users=>this.setState({robots:users}));
+      }
+
+
+      onsearchchange=(event)=>              //fun to to change input value
+      { this.setState({searchfield:event.target.value})
+      }
+
       
-         <div className="  flex justify-between  bg-light-green  br2 pa3 ma2   bw2 shadow-5  " >
-             <h1 className="f2 ph2">SHOPNAME</h1>
-            <input type='search' placeholder = '        search items'
-             className ='  ma3 mh4 ba b--green br3 bg-lightest-blue'
-              />
+      render(){
+      const frobots= this.state.robots.filter(robots=>     //take the changed value and change in states robots name
+      {
+              return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
+      });
 
-           </div>
-           <div className=' bg-light-green  br2 pa3 ma2   bw2 shadow-5  tc'>
+      if(frobots.length===0)
+      {
+        return (<div className='tc'>
+          <Search searchchange={this.onsearchchange}/>
+          <h1 className='tc'>nt found</h1>
 
-     <CheckoutPageContainer>
-      <CheckoutHeaderContainer>
-      <HeaderBlockContainer>
-        <span>Sl.No</span>
-      </HeaderBlockContainer>
+          </div>);
+      }
+      else{
+          return(
+        <div className='tc'>
+        
 
-      <HeaderBlockContainer>
-        <span>Product</span>
-      </HeaderBlockContainer>
-      <HeaderBlockContainer>
-        <span>Description</span>
-      </HeaderBlockContainer>
-      <HeaderBlockContainer>
-        <span>Quantity</span>
-      </HeaderBlockContainer>
-      <HeaderBlockContainer>
-        <span>Price</span>
-      </HeaderBlockContainer>
-      <HeaderBlockContainer>
-        <span>Remove</span>
-      </HeaderBlockContainer>
-      </CheckoutHeaderContainer>
          
- 
-    <TotalContainer >
+        <Search searchchange={this.onsearchchange}/>
+        <Itemlist robots={frobots}/>
 
-      <span>TOTAL: </span>
-    </TotalContainer>
-    <WarningContainer>
+         
+        
+
+        </div>);
+        }
+        
+        
+
+  }
+  
       
-    </WarningContainer>
-    
-     </CheckoutPageContainer>
-    
-  </div>
-    </div>
-    );
- 
-};
-
+}
 export default Shopview;
-
- 
