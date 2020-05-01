@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 
 const buttonStyles = css`
   background-color: black;
@@ -30,7 +30,7 @@ const googleSigninStyles = css`
   }
 `;
 
-const getButtonStyles = props => {
+const getButtonStyles = (props) => {
   if (props.googleSignin) {
     return googleSigninStyles;
   }
@@ -45,7 +45,7 @@ export const CustomButtonContainer = styled.button`
   letter-spacing: 0.5px;
   padding: 0 35px;
   font-size: 16px;
-    
+
   cursor: pointer;
   border: none;
   color: white;

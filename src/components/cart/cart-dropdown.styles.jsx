@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const CartDropdownContainer = styled.div`
   position: absolute;
@@ -11,13 +11,12 @@ export const CartDropdownContainer = styled.div`
 
   background-color: white;
   top: 80px;
-  right:1%;
+  right: 1%;
   z-index: 5;
 
   button {
     margin-top: auto;
-      background-color: #148bdb;
-
+    background-color: #148bdb;
   }
 `;
 
