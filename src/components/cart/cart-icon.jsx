@@ -4,9 +4,9 @@ import { selectCartItemsCount } from '../../redux/cart.selectors';
 import { connect } from "react-redux";
 import { toggleCartHidden } from "../../redux/cart.actions";
 import {
-	CartContainer,
-	ShoppingIcon,
-	ItemCountContainer,
+	// CartContainer,
+	ShoppingIcon
+	// ItemCountContainer,
 } from "./cart-icon.styles";
 
 
