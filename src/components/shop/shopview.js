@@ -1,55 +1,16 @@
-import React, { Component } from "react";
-import Search from "../search/search.js";
-import Itemlist from "./itemlist";
+import React from 'react';
+import { Route } from 'react-router-dom';
 
-// import { connect } from 'react-redux';
+import CollectionsOverview from '../../components/collections-overview/collections-overview.component';
+import CollectionPage from '../collection/collection.component';
 
-class Shopview extends Component {
-  constructor() {
-    super(); //fr accesing parents and other class memmbers
-    this.state = {
-      robots: [], //state is used to store all modifying members(dynamic props)
-      searchfield: "",
-    };
-  }
-  componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then((response) => response.json())
-      .then((users) => this.setState({ robots: users }));
-  }
+const ShopPage = ({ match }) => (
+  <div className='shop-page '>
+ 
+    <Route exact path={`${match.path}`} component={CollectionsOverview} />
+    <Route path={`${match.path}/:collectionId`} component={CollectionPage} />
+  
+  </div>
+);
 
-  onsearchchange = (
-    event //fun to to change input value
-  ) => {
-    this.setState({ searchfield: event.target.value });
-  };
-
-  render() {
-    const frobots = this.state.robots.filter(
-      (
-        robots //take the changed value and change in states robots name
-      ) => {
-        return robots.name
-          .toLowerCase()
-          .includes(this.state.searchfield.toLowerCase());
-      }
-    );
-
-    if (frobots.length === 0) {
-      return (
-        <div className="tc">
-          <Search searchchange={this.onsearchchange} />
-          <h1 className="tc">nt found</h1>
-        </div>
-      );
-    } else {
-      return (
-        <div className="tc">
-          <Search searchchange={this.onsearchchange} />
-          <Itemlist robots={frobots} />
-        </div>
-      );
-    }
-  }
-}
-export default Shopview;
+export default ShopPage;
