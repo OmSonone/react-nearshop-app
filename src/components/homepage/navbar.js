@@ -1,4 +1,3 @@
- 
 import React from "react";
 import { Link } from "react-router-dom";
 import { auth } from "../../firebase/firebase.js";
@@ -6,46 +5,31 @@ import { connect } from "react-redux";
 import CartIcon from "../cart/cart-icon.jsx";
 import CartDropdown from "../cart/cart-dropdown";
 import "./navbar-styles.css";
-
 const Navbar = ({ currentUser, hidden }) => {
 	return (
 		<nav className="flex justify-between   bg-light-gray">
-			<div className="flex-grow pa2 flex items-center  ">
-				<img
-					alt="logo "
-					className="pointer br-100  ba mr2 h3 w3 dib grow"
-					src="download.png"
-				/>
-				<Link
-					to="/"
-					className="nearshop f2  blue b grow mr4-ns pointer no-underline"
-				>
-					NEARSHOP
-				</Link>
-			</div>
-			<div className="pa3">
+			<div className="pa3 mr5">
 				{currentUser ? (
 					<div className="flex justify-between pa2">
-						<img
-							alt="user icon "
-							className="pointer br-100 b--green   ba h2 w2 dib shadow"
-							src="https://img.icons8.com/color/96/000000/user.png"
-						/>
 						<div className="  f4 black pa2 ph2 ">{` ${currentUser.displayName}`}</div>
 					</div>
 				) : (
 					<div className="flex justify-between pa3">
-						<img
-							alt="user icon "
-							className="pointer br-100 b--red  ba h2 w2 dib grow"
-							src="https://img.icons8.com/ios-filled/50/000000/user-male-circle.png"
-						/>
 						<div className="f4   black pa2  ">not signed in</div>
 					</div>
 				)}
 			</div>
 
-			<div className="link  red-60 hover-black no-underline flex items-center pa2 ph2">
+			<div className=" pa2 flex ph4 items-center  ">
+				<Link
+					to="/"
+					className="nearshop f1  blue b grow mh2 no-underline"
+				>
+					NEARSHOP
+				</Link>
+			</div>
+
+			<div className="link  red-60 hover-black no-underline flex items-center">
 				<div className=" tc">
 					{currentUser ? (
 						<div

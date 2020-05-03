@@ -1,4 +1,3 @@
- 
 import React, { Component } from "react";
 import CardList from "../card/cardlist";
 import Search from "../search/search";
