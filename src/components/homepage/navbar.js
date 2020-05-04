@@ -20,7 +20,7 @@ const Navbar = ({ currentUser, hidden }) => {
 				)}
 			</div>
 
-			<div className=" pa2 flex ph4 items-center  ">
+			<div className=" title pa2 flex ph4 items-center">
 				<Link
 					to="/"
 					className="nearshop f1  b grow mh2 no-underline"
@@ -29,11 +29,11 @@ const Navbar = ({ currentUser, hidden }) => {
 				</Link>
 			</div>
 
-			<div className="link  red-60 hover-black no-underline flex items-center">
+			<div className="link hover-black no-underline flex items-center ">
 				<div className=" tc">
 					{currentUser ? (
 						<div
-							className=" f5 dib  pa2 ma2 bg-animate hover-bg-orange pointer hover-white no-underline pv2 ph4  ba b--red-20 ph2 br2 "
+							className=" f4 dib  pa2 ma2 bg-animate hover-bg-orange pointer hover-white no-underline pv2 ph4   ph2 br2 "
 							onClick={() => auth.signOut()}
 						>
 							{" "}
@@ -42,14 +42,14 @@ const Navbar = ({ currentUser, hidden }) => {
 					) : (
 						<Link
 							to="/signin"
-							className="f5 dib bg-animate hover-bg-blue pointer hover-white no-underline pv2 ph4   ba b--blue-20 ph2 br2"
+							className="f4 dib bg-animate hover-bg-blue pointer hover-white no-underline pv2 ph4  ph2 mr2 br2"
 						>
 							signin
 						</Link>
 					)}
 					<Link
 						to="/signup"
-						className="f5 dib bg-animate hover-bg-green pointer hover-white no-underline pv2 ph4   ba b--green-20 ph2 br2"
+						className="f4 dib bg-animate hover-bg-green pointer hover-white no-underline pv2 ph4   b--green-20 ph2 br2"
 					>
 						signup
 					</Link>

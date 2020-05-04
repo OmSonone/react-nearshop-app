@@ -11,7 +11,7 @@ import {
 
 
 const CartIcon = ({ toggleCartHidden, itemCount }) => (
-  <div className='cart-icon' onClick={toggleCartHidden}>
+  <div className='cart-icon pointer grow' onClick={toggleCartHidden}>
     <ShoppingIcon className='shoppinsssg-icon' />
     <span className='item-count'>{itemCount}</span>
   </div>
