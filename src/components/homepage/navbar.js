@@ -4,10 +4,10 @@ import { auth } from "../../firebase/firebase.js";
 import { connect } from "react-redux";
 import CartIcon from "../cart/cart-icon.jsx";
 import CartDropdown from "../cart/cart-dropdown";
-import "./navbar-styles.css";
+import "./navbar.styles.css";
 const Navbar = ({ currentUser, hidden }) => {
 	return (
-		<nav className="flex justify-between   bg-light-gray">
+		<nav className="flex justify-between    ">
 			<div className="pa3 mr5">
 				{currentUser ? (
 					<div className="flex justify-between pa2">
@@ -23,7 +23,7 @@ const Navbar = ({ currentUser, hidden }) => {
 			<div className=" pa2 flex ph4 items-center  ">
 				<Link
 					to="/"
-					className="nearshop f1  blue b grow mh2 no-underline"
+					className="nearshop f1  b grow mh2 no-underline"
 				>
 					NEARSHOP
 				</Link>

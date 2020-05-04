@@ -8,11 +8,26 @@ import Signup from "./components/signinup/signup.js";
 import Home from "./components/homepage/homepage.js";
 import { connect } from "react-redux";
 import { auth, createUserProfileDocument } from "./firebase/firebase.js";
+import Particles from 'react-particles-js';
+import './App.css'
 import { setCurrentUser } from "./redux/user.actions";
 import { selectCurrentUser } from "./redux/user.selectors";
 //import { getCurrentUser } from './redux/user.selectors';
+const particlesOptions = {
+  particles: {
+    number: {
+      value: 90,
+      density: {
+        enable: true,
+        value_area: 800
+      }
+    }
+  }
+}
 
 class App extends Component {
+
+
   unsubscribeFromAuth = null;
 
   componentDidMount = () => {
@@ -39,7 +54,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <Particles className='particles'
+          params={particlesOptions}
+        />
+
         <Navbar />
+         
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/shop" component={Shopview} />
