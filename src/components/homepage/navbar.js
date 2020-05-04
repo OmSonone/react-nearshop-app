@@ -7,10 +7,10 @@ import CartDropdown from "../cart/cart-dropdown";
 import "./navbar.styles.css";
 const Navbar = ({ currentUser, hidden }) => {
 	return (
-		<nav className="flex justify-between    ">
+		<nav className="flex justify-between justify-content">
 			<div className="pa3 mr5">
 				{currentUser ? (
-					<div className="flex justify-between pa2">
+					<div className="flex   pa2 justify-content">
 						<div className="  f4 black pa2 ph2 ">{` ${currentUser.displayName}`}</div>
 					</div>
 				) : (
@@ -42,7 +42,7 @@ const Navbar = ({ currentUser, hidden }) => {
 					) : (
 						<Link
 							to="/signin"
-							className="f4 dib bg-animate hover-bg-blue pointer hover-white no-underline pv2 ph4  ph2 mr2 br2"
+							className="f4 dib  justify-content hover-bg-blue pointer hover-white no-underline pv2 ph4  ph2 mr2 br2"
 						>
 							signin
 						</Link>

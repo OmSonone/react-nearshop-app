@@ -4,17 +4,17 @@ import { selectCartItemsCount } from '../../redux/cart.selectors';
 import { connect } from "react-redux";
 import { toggleCartHidden } from "../../redux/cart.actions";
 import {
-	// CartContainer,
-	ShoppingIcon
-	// ItemCountContainer,
+	CartContainer,
+	ShoppingIcon,
+	 ItemCountContainer,
 } from "./cart-icon.styles";
 
 
 const CartIcon = ({ toggleCartHidden, itemCount }) => (
-  <div className='cart-icon pointer grow' onClick={toggleCartHidden}>
+  <CartContainer className='cart-icon pointer grow' onClick={toggleCartHidden}>
     <ShoppingIcon className='shoppinsssg-icon' />
-    <span className='item-count'>{itemCount}</span>
-  </div>
+    <ItemCountContainer className='item-count'>{itemCount}</ItemCountContainer>
+  </CartContainer>
 );
 
 const mapDispatchToProps = dispatch => ({
