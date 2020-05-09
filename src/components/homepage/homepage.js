@@ -4,6 +4,9 @@ import Search from "../search/search";
 import Scroll from "./scroll";
  import Loader from 'react-loader-spinner'
 
+
+
+
 class Home extends Component {
 	constructor() {
 		super(); //fr accesing parents and other class memmbers
@@ -22,6 +25,8 @@ class Home extends Component {
 		event //fun to to change input value
 	) => {
 		this.setState({ searchfield: event.target.value });
+		//console.log(this.state.searchfield);
+		console.log(`https://maps.googleapis.com/maps/api/place/textsearch/json?query=shops+in+${this.state.searchfield}&key=AIzaSyBfD2yrN-ho5UblVPKYVTzKulkmZhNFxkU`); // main thing
 	};
 
 	render() {
