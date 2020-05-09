@@ -26,7 +26,7 @@ class Home extends Component {
 	) => {
 		this.setState({ searchfield: event.target.value });
 		//console.log(this.state.searchfield);
-		console.log(`https://maps.googleapis.com/maps/api/place/textsearch/json?query=shops+in+${this.state.searchfield}&key=AIzaSyBfD2yrN-ho5UblVPKYVTzKulkmZhNFxkU`); // main thing
+		//console.log(`https://maps.googleapis.com/maps/api/place/textsearch/json?query=shops+in+${this.state.searchfield}&key=AIzaSyBfD2yrN-ho5UblVPKYVTzKulkmZhNFxkU`); // main thing
 	};
 
 	render() {
