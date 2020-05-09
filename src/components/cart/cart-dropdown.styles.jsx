@@ -2,14 +2,15 @@ import styled from "styled-components";
 
 export const CartDropdownContainer = styled.div`
   position: absolute;
-  width: 280px;
-  height: 340px;
-  display: flex;
+  width: 380px;
+  height: 400px;
+ 
   flex-direction: column;
   padding: 20px;
   border: 1px solid black;
+  border-radius:10px;
 
-  background-color: white;
+  background-color:white;
   top: 80px;
   right: 1%;
   z-index: 5;
@@ -26,7 +27,7 @@ export const EmptyMessageContainer = styled.span`
 `;
 
 export const CartItemsContainer = styled.div`
-  height: 240px;
+  height: 320px;
   display: flex;
   flex-direction: column;
   overflow: scroll;
