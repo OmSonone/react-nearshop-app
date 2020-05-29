@@ -1,8 +1,8 @@
- 
 import React, { Component } from "react";
 import CardList from "../card/cardlist";
 import Search from "../search/search";
 import Scroll from "./scroll";
+ import Loader from 'react-loader-spinner'
 
 class Home extends Component {
 	constructor() {
@@ -37,9 +37,23 @@ class Home extends Component {
 
 		if (frobots.length === 0) {
 			return (
-				<div className="tc">
+				<div className="tc ">
 					<Search searchchange={this.onsearchchange} />
-					<h1 className="tc">nt found</h1>
+					   <div
+        className = " f2"
+       >Loading....</div>
+					 <Loader
+		 className =""
+         type="TailSpin"
+         color="#000000"
+         height={700}
+         width={200}
+         timeout={3000} //3 secs
+
+ 
+      />
+
+					 
 				</div>
 			);
 		} else {
