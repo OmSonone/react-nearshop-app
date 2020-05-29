@@ -27,7 +27,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
         dispatch(toggleCartHidden());
       }}
     >
-      NOTIFY ME!!!
+      GO TO CHECKOUT
     </CustomButton>
   </div>
 );

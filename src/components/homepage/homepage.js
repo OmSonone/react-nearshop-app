@@ -1,11 +1,8 @@
+ 
 import React, { Component } from "react";
 import CardList from "../card/cardlist";
 import Search from "../search/search";
 import Scroll from "./scroll";
- import Loader from 'react-loader-spinner'
-
-
-
 
 class Home extends Component {
 	constructor() {
@@ -25,8 +22,6 @@ class Home extends Component {
 		event //fun to to change input value
 	) => {
 		this.setState({ searchfield: event.target.value });
-		//console.log(this.state.searchfield);
-		//console.log(`https://maps.googleapis.com/maps/api/place/textsearch/json?query=shops+in+${this.state.searchfield}&key=AIzaSyBfD2yrN-ho5UblVPKYVTzKulkmZhNFxkU`); // main thing
 	};
 
 	render() {
@@ -42,23 +37,9 @@ class Home extends Component {
 
 		if (frobots.length === 0) {
 			return (
-				<div className="tc ">
+				<div className="tc">
 					<Search searchchange={this.onsearchchange} />
-					   <div
-        className = " f2"
-       >Loading....</div>
-					 <Loader
-		 className =""
-         type="TailSpin"
-         color="#000000"
-         height={700}
-         width={200}
-         timeout={3000} //3 secs
-
- 
-      />
-
-					 
+					<h1 className="tc">nt found</h1>
 				</div>
 			);
 		} else {

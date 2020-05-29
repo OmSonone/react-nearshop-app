@@ -1,12 +1,12 @@
  
 import React from "react";
 import { Link } from "react-router-dom";
-import './card.css'
+
 const Card = (props) => {
 	const { id, name, email } = props;
 
 	return (
-		<div className="  dib br2 pa3 ma2  bw2 shadow-5 tc card">
+		<div className="bg-light-green dib br2 pa3 ma2  bw2 shadow-5 tc">
 			<img
 				className="br-100 shadow grow dib  "
 				alt="robo"

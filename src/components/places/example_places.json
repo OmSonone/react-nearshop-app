@@ -1,0 +1,886 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "CoQC_wAAANAXxAmvKtAKYKHusw7hbc6swW6xT5r5ULF9Yb8y2I0CRLqvtTok8kbdc8iYQkWXIElL7TZQepMXIuKiAS473jUVbCAFtWQsaqMjG5Zv-xP4L64kwh_xXHWs06DpyGp_P2qIX2ktKFDKOOEDoMYg6IvZiYWbi83klKxj6iUCf-sNFRW4fk-Ts9wUSXUr2-bqpzB_gzuQSBdGzivBNT_sfM3qYHh4dDje_K1exlgB2a620B3YAG5okBGQmoenKTb1L2dVLNk8V24TSK2nUfi6UqtTVHvosUKG7koq0Ey-8T5-rcpPolIOOBMBfOuPhG5sv2ZtjYf-NF0wzidPP4DnxtsSEFJh1FDy4wg4uAQBeMKAc9EaFJgQJ79CZi9xnhQ61mpCrQu7J2nc",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "No 1, Sampige Rd, Malleshwaram, near Central bus stop, Bengaluru, Karnataka 560003, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9916302,
+               "lng" : 77.5711719
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.99295847989272,
+                  "lng" : 77.57271127989272
+               },
+               "southwest" : {
+                  "lat" : 12.99025882010728,
+                  "lng" : 77.57001162010728
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "ef69b0e543bc2df7c9317fcf9c06ec7628b52b8f",
+         "name" : "Mantri Square Mall",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102298121030824028021\"\u003erohan r\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAABLxOyF79UDNcKumGLk6CqoMtMgNWf2-DIcP06SuQswMYAejN9ipfaWKY_lVg9_Eeq2dSTwkYiKk1OqH1CaNf1HeJ2Ox76TLUdZAtRfT7dsciI0hi-jrwlO01SQgFkPoPEhBy7BOvDl95NR7AiAbVd1i3GhTMQtXpQzZkLz0VZFNIBbdrQdJvZw",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJoRKfACMWrjsRrWqiP9PBT5Y",
+         "plus_code" : {
+            "compound_code" : "XHRC+MF Bengaluru, Karnataka",
+            "global_code" : "7J4VXHRC+MF"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJoRKfACMWrjsRrWqiP9PBT5Y",
+         "types" : [ "shopping_mall", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 108487
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Whitefield Main Rd, Devasandra Industrial Estate, Mahadevapura, Bengaluru, Karnataka 560048, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9958017,
+               "lng" : 77.6963968
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.99776852989272,
+                  "lng" : 77.69758522989272
+               },
+               "southwest" : {
+                  "lat" : 12.99506887010728,
+                  "lng" : 77.69488557010729
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "05ec437d697bb1a980aa107216e2af66b564f4c2",
+         "name" : "Phoenix Marketcity",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4608,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102677901885500124842\"\u003eNagendra Vfx\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAiCgOEjVleVpacZNO4fPRo0tCPWFHEvZhVTfRFDQruV3ABDXjDv_nvqbswHH_7d_PTRikAd4YmRhpGrU_S1kVyH5CdtG1iMCdBmhcsf9KWBRBluxlv-3J4cXOw8_V11OvEhD7oI_1PnIp_qzIE7a2bVISGhQKYX7agcYqqSc_H-tpmNjEOyVzmg",
+               "width" : 2592
+            }
+         ],
+         "place_id" : "ChIJS76jBAsRrjsRQ5Yuqy0l-88",
+         "plus_code" : {
+            "compound_code" : "XMWW+8H Mahadevapura, Bengaluru, Karnataka",
+            "global_code" : "7J4VXMWW+8H"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJS76jBAsRrjsRQ5Yuqy0l-88",
+         "types" : [ "shopping_mall", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 114477
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Magrath Rd, Ashok Nagar, Bengaluru, Karnataka 560025, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9702626,
+               "lng" : 77.6099629
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.97143852989272,
+                  "lng" : 77.61115907989272
+               },
+               "southwest" : {
+                  "lat" : 12.96873887010728,
+                  "lng" : 77.60845942010728
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "d36cbe51b9b600d7ee9097a7443c6138dfa6dbe2",
+         "name" : "Garuda Mall",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103573226994305320096\"\u003eSandeep Anand\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAApdUezyprGpLdljpCNGuh3R9wi5KcifL3mFuTTwAs3DPsbSAH4K2aRsdUAS_6KhTY5SPPjddgx8ZEQONhqzP6W7DvYHpJmU-aafzYfwlyYTfBYRYFVx46asTiWtq1aNJlEhDp6pUCdTglKRtQbpWfazGyGhQEft3ZkOpqjWGs5T-n9giP3ZN4xA",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJgzt5rYEWrjsRgaxtZI8bwnE",
+         "plus_code" : {
+            "compound_code" : "XJC5+4X Ashok Nagar, Bengaluru, Karnataka",
+            "global_code" : "7J4VXJC5+4X"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJgzt5rYEWrjsRgaxtZI8bwnE",
+         "types" : [ "shopping_mall", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 52455
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "formatted_address" : "24, Vittal Mallya Rd, KG Halli, D' Souza Layout, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9715895,
+               "lng" : 77.5960585
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.97300142989272,
+                  "lng" : 77.59736737989273
+               },
+               "southwest" : {
+                  "lat" : 12.97030177010728,
+                  "lng" : 77.59466772010728
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "bf728378560eb513d92eeb3a741625a5979062c0",
+         "name" : "UB City",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111452523753306735425\"\u003eSahil Badal\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA1asvJjZugt2JwB8DfgeC6Q1vFvQyzGkTzLylo-ceezKjxIszs8Za6QZpQFDzoLxWjBU7xVIa1OWYCiWh1JCB2e2aZk9wofLd8hII-NPlo1-AjwnZ1qofCfB6xKfBzxxSEhDe0yMwqEom4bMQYGPMWGBHGhSs6v6EW4kCijsR03Jpg1P2ccgYIg",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ96tpUHcWrjsRit-gsot2OOE",
+         "plus_code" : {
+            "compound_code" : "XHCW+JC Bengaluru, Karnataka",
+            "global_code" : "7J4VXHCW+JC"
+         },
+         "rating" : 4.5,
+         "reference" : "ChIJ96tpUHcWrjsRit-gsot2OOE",
+         "types" : [ "shopping_mall", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 46326
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "No 111, Orion Mall, 1st Floor, Dr Rajkumar Road, Malleshwaram West, Bengaluru, Karnataka 560055, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.0113578,
+               "lng" : 77.5552653
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.01275737989272,
+                  "lng" : 77.55622497989273
+               },
+               "southwest" : {
+                  "lat" : 13.01005772010728,
+                  "lng" : 77.55352532010728
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "5353b75cadd213b9e02e312f53d3ca767e19da83",
+         "name" : "Chumbak – Home Décor & Fashion Store",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1836,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103841852538343541697\"\u003eRavi Kittu\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAzli9UgMcQ38ugm5xmAHQDN5Y5dXJ9zWN50XyUca3pH_0oTxg2RgYIkr-W6qddxsBtCUZVHaMcCKgAq5It04VSYx05uch6uw3ZAgVuLY6C6fzNLm9OF569kIYpMHT2E4KEhAEGRJcWWmtX4t_j0PWlPhuGhQzqRmznIfReon6AEikEaV1BUYMCQ",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJMTsxC4I9rjsRlArX0g2fqyA",
+         "plus_code" : {
+            "compound_code" : "2H64+G4 Bengaluru, Karnataka",
+            "global_code" : "7J5V2H64+G4"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJMTsxC4I9rjsRlArX0g2fqyA",
+         "types" : [
+            "furniture_store",
+            "home_goods_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 13
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "#372/373, Sridevi Properties, Ground Floor, Yelahanka Satellite Town, Yelahanka New Town, Bengaluru, Karnataka 560064, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.094377,
+               "lng" : 77.58923779999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.09575897989272,
+                  "lng" : 77.59061962989271
+               },
+               "southwest" : {
+                  "lat" : 13.09305932010728,
+                  "lng" : 77.58791997010727
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "8a5163ffbe9f2e50b74e4ded775708a9681afcf7",
+         "name" : "Studio Pepperfry, Furniture Store in Yelahanka New Town, Bangalore",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113976116435883306082\"\u003eAbrar Sharief\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAUbeeud065W_CO04mWxettaWq_BuyRo-OG1x8gDNZv9DdlWNlJuSGhVs9NJV12Ot0m_kgv33wZsiDZ_pUDTOHUZSPuZU7OtTDJBPggQft7g4_BfrOi3LCV46USTXYd00gEhDciAawjjTXQsY8Aqgwce9GGhQRgtL1Z4aHrViCEK3e3FM02qErig",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJh-5wWbsZrjsR7Nv3NGSFmIg",
+         "plus_code" : {
+            "compound_code" : "3HVQ+QM Yelahanka New Town, Bengaluru, Karnataka",
+            "global_code" : "7J5V3HVQ+QM"
+         },
+         "rating" : 4,
+         "reference" : "ChIJh-5wWbsZrjsR7Nv3NGSFmIg",
+         "types" : [
+            "furniture_store",
+            "home_goods_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 155
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "#8, New BEL Rd, RMV Extension, ITI Employess Housing Colony, Jaladarsini Layout, Post, Bengaluru, Karnataka 560094, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.0325906,
+               "lng" : 77.5697978
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.03391832989272,
+                  "lng" : 77.57111532989272
+               },
+               "southwest" : {
+                  "lat" : 13.03121867010728,
+                  "lng" : 77.56841567010727
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+         "id" : "e7787d89147b049d3fdcea614d3c3cee03c4ccf8",
+         "name" : "Firstcry.com Store Bangalore New Bel Road",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110365333616931086246\"\u003ePriya Nair\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRZAAAAAqEyzBfPAzqduksqXl5ndxntlsVOWNPFVtVL4QbOJ14jLjhpuLl0sY1xVNP0lq_GxLkRKNEXvWoy59SQnhp0SLzGa3Qxp7UXUMFJe_B06j_G1hEiUgdL2YBWUNBfkEiVEhCIrvWSOK7kS52vdUFUBJgQGhS0Q8l-KwIwA4ZGAtUEusKdyg9iHw",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJkRPliKUXrjsR1zsc8v4HkYM",
+         "plus_code" : {
+            "compound_code" : "2HM9+2W Bengaluru, Karnataka",
+            "global_code" : "7J5V2HM9+2W"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJkRPliKUXrjsR1zsc8v4HkYM",
+         "types" : [ "point_of_interest", "clothing_store", "store", "establishment" ],
+         "user_ratings_total" : 82
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "formatted_address" : "Orion Mall,UG.06/ Rajkumar Road, 560055.08022682095, 1st Main Rd, 2nd Stage, Rajajinagar, Bengaluru, Karnataka 560055, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.0115398,
+               "lng" : 77.5548003
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.01287877989272,
+                  "lng" : 77.55601057989271
+               },
+               "southwest" : {
+                  "lat" : 13.01017912010728,
+                  "lng" : 77.55331092010728
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "e906ff3e14942f2c2d59ff93893bfa2843ad82b6",
+         "name" : "Lee ಲಿ",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3697,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108719994517008643998\"\u003eRajeev Tp\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRZAAAAKlrCQPauPRqV59Ga8dpBLeh9uRgsiCr3NCPj2rw7q8uT_wqrUevBn_4Uh_Ib6UC4aAIpKWm1kDWPRmkqdaPoadQUfofssmSgbmxrfp3Uk-ZNHrD7MQ19jWp_-Aev1m5KEhCCfljdruUkLPkgwD0YLhdIGhT1g8FqDBxSaGeNw6P0ZJLQd6MNYg",
+               "width" : 2548
+            }
+         ],
+         "place_id" : "ChIJcTaUoHg9rjsReu2DbCE5GwY",
+         "plus_code" : {
+            "compound_code" : "2H63+JW Rajajinagar, Bengaluru, Karnataka",
+            "global_code" : "7J5V2H63+JW"
+         },
+         "rating" : 4,
+         "reference" : "ChIJcTaUoHg9rjsReu2DbCE5GwY",
+         "types" : [ "clothing_store", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 126
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "formatted_address" : "BANGALORE-BRIGADE GATEWAY RAJAJINAGAR SHOPPERSSTOP UNIT NO.Uorion mall 1st floor, Dr Rajkumar Rd, Rajajinagar, Bengaluru, Karnataka 560255, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.0106656,
+               "lng" : 77.55512349999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.01189797989272,
+                  "lng" : 77.55615402989271
+               },
+               "southwest" : {
+                  "lat" : 13.00919832010728,
+                  "lng" : 77.55345437010727
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "40d67baae4681d4ce0bad390555a0d7ca92c26c7",
+         "name" : "Shoppers Stop",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116713429775945407613\"\u003eRifath Shaikh\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAkvJA4oylaY4JbWTyjr8namglWr7Z1zuIsh2PNPCNcHSM2xWsgmeF0XsvKySa2wzC2UeMhecGr-nArm6DBEARoK49tEMPR_bThEoZHq8exOy8XIGngN2woIOfQLdj4c1TEhB_pE52wOIrXIj6cnStlh9_GhSSKwNeKDunLulbuvAztqEkZGYujQ",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJSarVoHg9rjsRzIKMZGGsnLk",
+         "plus_code" : {
+            "compound_code" : "2H64+72 Rajajinagar, Bengaluru, Karnataka",
+            "global_code" : "7J5V2H64+72"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJSarVoHg9rjsRzIKMZGGsnLk",
+         "types" : [ "clothing_store", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 672
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "formatted_address" : "#07-08 & 107-108, 26/1, Dr Rajkumar Rd, Rajajinagar, Bengaluru, Karnataka 560055, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.0109302,
+               "lng" : 77.55487339999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.01232552989272,
+                  "lng" : 77.55603332989273
+               },
+               "southwest" : {
+                  "lat" : 13.00962587010728,
+                  "lng" : 77.55333367010728
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "2dd45351ff95d65562a372b91187dcea8f9c63f9",
+         "name" : "Central",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 4000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103898159550499244540\"\u003eAnil Karkare\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA37OqK0KKoUoVxTSbC_yapAbA0OHNcrd4LIPFomtrNvT8gFJ6lIVbWL2foYDuNvXy6BMIBrhfdm0apVqXiuS1xCHZSfk5l4hPUAZz0tGf1a2Johwt3i3OOZmOqu1ZHDR6EhAREL5vKb_pOmQiPxl4XBXsGhTyFIR-yiBpuhHXIGtxl6R_pIkXvg",
+               "width" : 2240
+            }
+         ],
+         "place_id" : "ChIJRdP-oIE9rjsRe-Fcbcxn-74",
+         "plus_code" : {
+            "compound_code" : "2H63+9W Rajajinagar, Bengaluru, Karnataka",
+            "global_code" : "7J5V2H63+9W"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJRdP-oIE9rjsRe-Fcbcxn-74",
+         "types" : [ "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 1254
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "No. 33, Kempegowda Rd, Gandhi Nagar, Bengaluru, Karnataka 560009, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9744879,
+               "lng" : 77.57854759999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.97586342989272,
+                  "lng" : 77.57976632989273
+               },
+               "southwest" : {
+                  "lat" : 12.97316377010728,
+                  "lng" : 77.57706667010729
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "56c0c8573790a2a5f5b8cb5f5005b8cf4a4bab92",
+         "name" : "Pothys - Silk Sarees Bengaluru",
+         "opening_hours" : {},
+         "photos" : [
+            {
+               "height" : 2304,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117737667950642000960\"\u003ehemanth kumar\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAhVrKCGF2hbEDwcd1FAyNbiDUamDn4-WO_2oo8-1ES1BO6_y5kZLfEh7mzo30z45-vUWB29_vNQYtWbEivjvNsPlzgRF9wuJnjjHiYhPmY8x0bl0TOKZj1LounQ5lptCCEhACOIe7FSc4SvqcKWKlSc-cGhR1baHo90gqNCn2ZjSvs475YWHt7A",
+               "width" : 4096
+            }
+         ],
+         "place_id" : "ChIJDWuXjw4WrjsRYeTXrB9GH7E",
+         "plus_code" : {
+            "compound_code" : "XHFH+QC Gandhi Nagar, Bengaluru, Karnataka",
+            "global_code" : "7J4VXHFH+QC"
+         },
+         "rating" : 4,
+         "reference" : "ChIJDWuXjw4WrjsRYeTXrB9GH7E",
+         "types" : [ "clothing_store", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 22786
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "Ground Floor, Satya Heritage, 8th Cross, 13th Main Rd, Opp. Park, E block, Sahakar Nagar, Bengaluru, Karnataka 560092, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 13.058936,
+               "lng" : 77.5906078
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 13.06031972989272,
+                  "lng" : 77.59198222989271
+               },
+               "southwest" : {
+                  "lat" : 13.05762007010728,
+                  "lng" : 77.58928257010727
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "a2ef94ad5c32f5292636caf428e94697274cb9f5",
+         "name" : "Studio Pepperfry - Furniture Store in Sahakar nagar, Bengaluru",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1840,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/102244103943972980601\"\u003edeepak nair\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA8GrmSn0xcYUa7P-PxU3dXmfEI_7rKu7c3PGHWXfhwQy5oaB8aOr_TmC6ZfZfOG_b9cfhk3KVCNrVJeIM9iD3F4sZP1GDMqnnL7ZWRn9PUyAwMw5Pb_0F1VPN70wCCGPEEhBLmVYBR6Ug9CGn_4j3k8OuGhShQ7fC9L5JdSkdYFOj2oJZVkPiPA",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJTUp6g8cZrjsR_2gBggZmrG0",
+         "plus_code" : {
+            "compound_code" : "3H5R+H6 Bengaluru, Karnataka",
+            "global_code" : "7J5V3H5R+H6"
+         },
+         "rating" : 3.7,
+         "reference" : "ChIJTUp6g8cZrjsR_2gBggZmrG0",
+         "types" : [
+            "furniture_store",
+            "home_goods_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 207
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "formatted_address" : "Rest House Rd, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9735473,
+               "lng" : 77.60685749999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.97498372989272,
+                  "lng" : 77.60821317989272
+               },
+               "southwest" : {
+                  "lat" : 12.97228407010728,
+                  "lng" : 77.60551352010727
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "0b59e07ca74e94a72190c1c3b45c0f258876f9f4",
+         "name" : "Indo Dubai Plaza",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117668570434969140111\"\u003etusar pradhan\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAz3Iu4VvrdhlQg8qjfrstHIYLJs3IeY1I2s_gOZlQzRcZ9eo3IdEDszqoxKEHd4jmhWZ-YrvjzI5WcvsFgI1bA64CuCTyHarVC9f5geX93BfnmJSRurDwSZtJrt7bbP_IEhDAzXId_qhKdQ0-B5QNWj5vGhSDGJvnFuWGz_N2C-pF8C6M7Ch4zQ",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJ0Wbp4X0WrjsRnnOUkl3JjO4",
+         "plus_code" : {
+            "compound_code" : "XJF4+CP Ashok Nagar, Bengaluru, Karnataka",
+            "global_code" : "7J4VXJF4+CP"
+         },
+         "rating" : 3.8,
+         "reference" : "ChIJ0Wbp4X0WrjsRnnOUkl3JjO4",
+         "types" : [ "shopping_mall", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 4165
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "No. 6 Bldg. # 9 & 10 Off Museum Road.,Opposite SBI, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9733255,
+               "lng" : 77.6018687
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.97449627989272,
+                  "lng" : 77.60320197989272
+               },
+               "southwest" : {
+                  "lat" : 12.97179662010728,
+                  "lng" : 77.60050232010728
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "d91b17ea11ddaa164b36044b4c1440b3ef20e31b",
+         "name" : "The Shop",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJIS-Sxn4WrjsR6EUK0QXIhdw",
+         "plus_code" : {
+            "compound_code" : "XJF2+8P Ashok Nagar, Bengaluru, Karnataka",
+            "global_code" : "7J4VXJF2+8P"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJIS-Sxn4WrjsR6EUK0QXIhdw",
+         "types" : [ "home_goods_store", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 19
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "formatted_address" : "Whitefield Main Rd, Devasandra Industrial Estate, Mahadevapura, Bengaluru, Karnataka 560048, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9959631,
+               "lng" : 77.6953109
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.99714062989272,
+                  "lng" : 77.69659172989273
+               },
+               "southwest" : {
+                  "lat" : 12.99444097010728,
+                  "lng" : 77.69389207010728
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "afd799873ff8d13749a871e6edf90fbb840fbb86",
+         "name" : "VR Bengaluru",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 4160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/106822191370528609986\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA53K3ucS43XJ-b6YjO2MO5X7PST4ZMwKQjqubdD3s3PivAxMmkFS7bfDJDerpWzJmEOPpWoKgmtImp8rSBB3xkcuFklLWsRt0iQW9icGZB0M1Eh5UTIXuvJ_H_FR_hEYpEhBWu-HnTl8ONirfwk2p2XXHGhRXOC0cGnonYFSyUTHFKYp-TNOWqg",
+               "width" : 2340
+            }
+         ],
+         "place_id" : "ChIJtV2JQAsRrjsRp4HCbaob4R0",
+         "plus_code" : {
+            "compound_code" : "XMWW+94 Mahadevapura, Bengaluru, Karnataka",
+            "global_code" : "7J4VXMWW+94"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJtV2JQAsRrjsRp4HCbaob4R0",
+         "types" : [ "shopping_mall", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 54458
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "formatted_address" : "voylla Plot No.45/1, 45/2, 45th Cross Rd, KSRTC Layout, 2nd Phase, J. P. Nagar, Bengaluru, Karnataka 560069, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.916473,
+               "lng" : 77.592375
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.91782462989272,
+                  "lng" : 77.59333772989272
+               },
+               "southwest" : {
+                  "lat" : 12.91512497010728,
+                  "lng" : 77.59063807010727
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "85239fc57c85c4a0f89b5a335984fef9140ab852",
+         "name" : "Bangalore Central",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115426374592229131721\"\u003eDr.Mamlakatoi Haidarova\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA6vGT3xVKwyN5DTbzg4EQOWOh4XBka-asuTVRixQvGsN_rJvcYGoxFGifKwLut3B_vAA3N5eKaQJoD9lvQgPppO2j27G5fP6tHRJWxQlS0Yes0Mz7F1AxUkifwxNskWBrEhC178n8qSerEtW-CzF5d5JkGhTy2fnvvV42l0QaBV-1oibWfE9HFA",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ2QAHZwwVrjsREeJoLVno9LU",
+         "plus_code" : {
+            "compound_code" : "WH8R+HX J. P. Nagar, Bengaluru, Karnataka",
+            "global_code" : "7J4VWH8R+HX"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJ2QAHZwwVrjsREeJoLVno9LU",
+         "types" : [
+            "shopping_mall",
+            "department_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 40638
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "formatted_address" : "47, 48, Residency Rd, Ashok Nagar, Bengaluru, Karnataka 560025, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.973461,
+               "lng" : 77.6111545
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.97475067989272,
+                  "lng" : 77.61237947989272
+               },
+               "southwest" : {
+                  "lat" : 12.97205102010728,
+                  "lng" : 77.60967982010727
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "3642744edf9f2dae7389de12831bea5019566085",
+         "name" : "Bangalore Central",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 2592,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101296248606477836150\"\u003eHarikesh Tripathi\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA8RqqUxFLJ3UImpJJ0JSMHvISBQofgAEp_r-g9dQEgBoQhjkzvJ7TH5RFBO_1fq8ulLpB7OiUwFGR8pOZZPfZIXM0yXbl0kBV1lNxAf4aGG2WjLtqjVCFfnLyiD592KVeEhCiZaHLpAnVqqtNq4Ev7gNOGhRIYSJZAytwEmXbQDg9FZNBt3KHqg",
+               "width" : 1944
+            }
+         ],
+         "place_id" : "ChIJC47ztXgWrjsRC2qssc1qsA4",
+         "plus_code" : {
+            "compound_code" : "XJF6+9F Ashok Nagar, Bengaluru, Karnataka",
+            "global_code" : "7J4VXJF6+9F"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJC47ztXgWrjsRC2qssc1qsA4",
+         "types" : [
+            "shopping_mall",
+            "department_store",
+            "point_of_interest",
+            "clothing_store",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 7898
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "560053, 487-494, Avenue Rd, Mamulpet, Chickpet, Bengaluru, Karnataka 560053, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.967634,
+               "lng" : 77.57843889999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.96898932989272,
+                  "lng" : 77.57977797989273
+               },
+               "southwest" : {
+                  "lat" : 12.96628967010728,
+                  "lng" : 77.57707832010728
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "be3833cb98501ddfd3a4720dcf72b7b8c145ce0f",
+         "name" : "Gift Shop",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJL71-8gkWrjsR0BW5hLnjzaA",
+         "plus_code" : {
+            "compound_code" : "XH9H+39 Chickpet, Bengaluru, Karnataka",
+            "global_code" : "7J4VXH9H+39"
+         },
+         "rating" : 0,
+         "reference" : "ChIJL71-8gkWrjsR0BW5hLnjzaA",
+         "types" : [ "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 0
+      },
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "formatted_address" : "Hubli, Bellandur, Bengaluru, Karnataka 560103, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9264904,
+               "lng" : 77.6752784
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.92739277989272,
+                  "lng" : 77.6766059298927
+               },
+               "southwest" : {
+                  "lat" : 12.92469312010728,
+                  "lng" : 77.67390627010727
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "20058074c7b28b8adc8a68259f1bd06c89944b51",
+         "name" : "Bangalore CENTRAL",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 1152,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111789275149491868653\"\u003eViswanath KS\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA6AyXHAQd6oXsuve6-sToT2U-D5PAt_vtTeTg6k3bQBbbE-qJCZ57acnV6WbKzzd4-lY6J7P3AxnkFczHtaSRESVr7nQh_FEyU7TguELpSfxythvzIS3nutJai0HpglAhEhCYRAoijScCEV8Zbu3JfcJrGhQ1hCwr1_5QIl4JQZ_VADBypGRXww",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJ5x1GX3UTrjsR4aq-6zlo958",
+         "plus_code" : {
+            "compound_code" : "WMGG+H4 Bengaluru, Karnataka",
+            "global_code" : "7J4VWMGG+H4"
+         },
+         "rating" : 4.1,
+         "reference" : "ChIJ5x1GX3UTrjsR4aq-6zlo958",
+         "types" : [ "department_store", "point_of_interest", "store", "establishment" ],
+         "user_ratings_total" : 35942
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "formatted_address" : "87, 5th Main Rd, Gandhi Nagar, Bengaluru, Karnataka 560009, India",
+         "geometry" : {
+            "location" : {
+               "lat" : 12.9764368,
+               "lng" : 77.57760279999999
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 12.97780887989272,
+                  "lng" : 77.57888272989271
+               },
+               "southwest" : {
+                  "lat" : 12.97510922010728,
+                  "lng" : 77.57618307010726
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/shopping-71.png",
+         "id" : "38013d75588d2a244d9c8f8690d43f609b94accf",
+         "name" : "National Market",
+         "opening_hours" : {},
+         "place_id" : "ChIJ5fyDBhEXrjsRR5zSYYHkgH8",
+         "plus_code" : {
+            "compound_code" : "XHGH+H2 Gandhi Nagar, Bengaluru, Karnataka",
+            "global_code" : "7J4VXHGH+H2"
+         },
+         "rating" : 3.9,
+         "reference" : "ChIJ5fyDBhEXrjsRR5zSYYHkgH8",
+         "types" : [ "shopping_mall", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 1282
+      }
+   ],
+   "status" : "OK"
+}

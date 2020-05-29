@@ -2,11 +2,11 @@ import React from "react";
 
 const Search = ({ searchfield, searchchange }) => {
 	return (
-		<div className="ma2   br2  w-50 bg-lightest-blue flex justify-content center">
+		<div className="pa2">
 			<input
 				type="search"
 				placeholder="search shops or categories"
-				className="pa2 ba  br2  bg-lightest-blue w-100 b--green "
+				className="pa2 ba b--green br3  bg-lightest-blue"
 				onChange={searchchange}
 			/>
 		</div>
